@@ -66,7 +66,7 @@ int main()
 			{
 				gparr[i-1][X-1] = color;
 			}
-		}
+		}  
 		else if (gpp == 'H' || gpp == 'h')
 		{
 			cin >> X1;

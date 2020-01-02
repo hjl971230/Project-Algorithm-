@@ -155,7 +155,10 @@
     <ClCompile Include="prob4.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="prob5.cpp" />
+    <ClCompile Include="prob5.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="prob6.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />
